@@ -69,14 +69,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-=======
-
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
 	</dependencies>
 
 	<build>

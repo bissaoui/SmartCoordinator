@@ -5,18 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-<<<<<<< HEAD
-=======
-import org.springframework.security.crypto.password.PasswordEncoder;
 import smart.book.cordinator.model.Role;
 import smart.book.cordinator.model.User;
 import smart.book.cordinator.service.UserService;
-
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
 
 @SpringBootApplication
 public class SmartBookApplication {
@@ -25,17 +17,11 @@ public class SmartBookApplication {
 		SpringApplication.run(SmartBookApplication.class, args);
 
 	}
-<<<<<<< HEAD
 	@Bean
-	BCryptPasswordEncoder passwordEncoder(){
-		return  new BCryptPasswordEncoder();
-=======
-
-	@Bean
-	PasswordEncoder passwordEncoder()
-	{
-		return  new BCryptPasswordEncoder();
+	BCryptPasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
 	}
+
 	@Bean
 	CommandLineRunner run(UserService userService)
 	{
@@ -48,14 +34,13 @@ public class SmartBookApplication {
 			//SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 			//date = formatter.format(date)
 
-			userService.saveUser(new User(0,"Ajana","mehdiajana","Mehdi","mehdi5ajana@gmail.com","1234", date ));
-			userService.saveUser(new User(0,"Bissaoui","yassino","Yassine","yassine.bissaoui@gmail.com","000000", date ));
+			userService.saveUser(new User(0L,"Ajana","mehdiajana","Mehdi","mehdi5ajana@gmail.com","1234", date ));
+			userService.saveUser(new User(0L,"Bissaoui","yassino","Yassine","yassine.bissaoui@gmail.com","000000", date ));
 
 			userService.addRoleToUser("mehdiajana","ROLE_ADMIN");
 			userService.addRoleToUser("mehdiajana","ROLE_MANAGER");
 			userService.addRoleToUser("yassino","ROLE_USER");
 		};
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
 	}
 
 }

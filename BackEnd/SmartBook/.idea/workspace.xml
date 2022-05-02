@@ -5,27 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
-<<<<<<< HEAD
-=======
       <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthorizationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/SecurityConfig.java" afterDir="false" />
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/test.txt" beforeDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< HEAD
         <option value="Interface" />
-=======
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
         <option value="Class" />
       </list>
     </option>
@@ -79,32 +68,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/yassi/Desktop/SmartCoordinator/BackEnd/SmartBook/src/main/java/smart/book/cordinator",
-    "last_opened_file_path": "C:/Users/yassi/Desktop/SmartCoordinator/BackEnd/SmartBook",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "8c319f28d81d1527a9428e9a5c2195f5"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="smart.book.cordinator" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="smart.book.cordinator.repository" />
-    </key>
-  </component>
-  <component name="RunManager">
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -122,29 +85,33 @@
     &quot;spring.configuration.checksum&quot;: &quot;3e657029607b5fc48f4d3a3d54ba27a7&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.SmartBookApplication">
-    <configuration name="All in SmartBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartBook" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="smart.book.cordinator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="smart.book.cordinator.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in smart">
+    <configuration name="All in smart" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="smart" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
     <configuration name="SmartBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="SmartBook" />
+      <module name="smart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="smart.book.cordinator.SmartBookApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.All in SmartBook" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,15 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1650718553427</updated>
       <workItem from="1650718554718" duration="1474000" />
-<<<<<<< HEAD
       <workItem from="1651008059440" duration="4171000" />
       <workItem from="1651362138712" duration="9766000" />
-=======
       <workItem from="1651008059440" duration="792000" />
       <workItem from="1651012704882" duration="453000" />
       <workItem from="1651013200427" duration="3791000" />
       <workItem from="1651414061160" duration="16136000" />
->>>>>>> 590103735144a236569ccaacd5411ca9221ff5af
     </task>
     <servers />
   </component>
