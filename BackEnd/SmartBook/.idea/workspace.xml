@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/api/UserResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SmartCordinator/src/test/java/com/example/smartcordinator/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartCordinator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartCordinator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartCordinator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartCordinator/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -66,11 +72,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/yassi/Desktop/SmartCoordinator/BackEnd/SmartBook/src/main/java/smart/book/cordinator",
     "last_opened_file_path": "C:/Users/yassi/Desktop/SmartCoordinator/BackEnd/SmartBook",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "8c319f28d81d1527a9428e9a5c2195f5"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="smart.book.cordinator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="smart.book.cordinator.repository" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SmartBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="smart" />
@@ -89,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650718553427</updated>
       <workItem from="1650718554718" duration="1474000" />
-      <workItem from="1651008059440" duration="792000" />
+      <workItem from="1651008059440" duration="4171000" />
+      <workItem from="1651362138712" duration="9766000" />
     </task>
     <servers />
   </component>

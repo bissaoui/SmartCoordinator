@@ -6,4 +6,5 @@ import smart.book.cordinator.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     User findByUsername(String Username);
+
 }

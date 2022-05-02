@@ -17,8 +17,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserResource {
 
-    @Autowired
-    private UserService userService;
+
+    private final UserService userService;
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUser(){
         return ResponseEntity.ok().body(userService.getUsers());
