@@ -30,4 +30,13 @@ public class User implements Serializable {
     private List<Role> roles;
 
 
+    public User(int id, String nom, String username, String prenom, String email, String password, Date ddn) {
+        this.id = id;
+        this.nom = nom;
+        this.username = username;
+        this.prenom = prenom;
+        this.email = email;
+        this.password = password;
+        this.ddn = ddn;
+    }
 }
