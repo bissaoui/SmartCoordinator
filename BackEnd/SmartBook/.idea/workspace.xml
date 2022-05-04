@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/securityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/securityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +84,7 @@
       <recent name="smart.book.cordinator.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in smart">
+  <component name="RunManager" selected="Spring Boot.SmartBookApplication">
     <configuration name="All in smart" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="smart" />
       <option name="PACKAGE_NAME" value="" />

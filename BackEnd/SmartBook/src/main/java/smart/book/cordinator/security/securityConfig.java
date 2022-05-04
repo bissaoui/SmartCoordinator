@@ -28,14 +28,16 @@ public class securityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        CustomAuthenticationFilter customAuthenticationFilter = new CustomAuthenticationFilter(authenticationManagerBean());
-        customAuthenticationFilter.setFilterProcessesUrl("/api/login");
+       CustomAuthenticationFilter customAuthenticationFilter = new CustomAuthenticationFilter(authenticationManagerBean());
+       customAuthenticationFilter.setFilterProcessesUrl("/api/login");
         http.csrf().disable();
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        http.authorizeHttpRequests().antMatchers(HttpMethod.POST,"/User").permitAll();
+
         http.authorizeHttpRequests().antMatchers("/api/login/**","/api/token/refresh/**").permitAll();
-        http.authorizeHttpRequests().antMatchers(HttpMethod.GET,"/api/user/**").hasAnyAuthority("Role_USER");
-        http.authorizeHttpRequests().antMatchers(HttpMethod.POST,"/api/user/save/**").hasAnyAuthority("Role_ADMIN");
-        http.authorizeHttpRequests().anyRequest().authenticated();
+        http.authorizeHttpRequests().antMatchers(HttpMethod.GET,"/api/user/**").permitAll();
+        http.authorizeHttpRequests().antMatchers(HttpMethod.POST,"/api/user/save/**").permitAll();
+       // http.authorizeHttpRequests().anyRequest().authenticated();
         http.addFilter(customAuthenticationFilter);
         http.addFilterBefore(new CustomAuthorizationFilter() , UsernamePasswordAuthenticationFilter.class);
 
