@@ -25,11 +25,12 @@ public class UserController {
     public User Get(@PathVariable("id") Long id){
         return userRepository.findById(id).get();
     }
-
     @PostMapping
-    public void Ajoute(@RequestBody User user){
-         userRepository.save(user);
+    public User Get(@RequestParam("username") String username){
+        return userRepository.findUserByUsername(username);
     }
+
+
 
     @DeleteMapping("/{id}")
     public void Delete(@PathVariable("id") Long id){

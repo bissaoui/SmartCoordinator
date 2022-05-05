@@ -7,8 +7,12 @@
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/api/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/securityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/security/securityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
