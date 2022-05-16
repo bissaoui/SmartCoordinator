@@ -28,13 +28,11 @@ public class SmartBook {
     @ManyToOne
     @JoinColumn(name = "idUser")
     private User user;
-
-    @ManyToOne
+    @ManyToOne(cascade= CascadeType.ALL)
     @JoinColumn(name = "idReseau")
     private ReseauxSociaux reseauxSociaux;
-
-    @ManyToOne
-    @JoinColumn(name = "idPosition")
+    @ManyToOne(cascade= CascadeType.ALL)
+    @JoinColumn(name = "idPosition" )
     private Position position;
 
 

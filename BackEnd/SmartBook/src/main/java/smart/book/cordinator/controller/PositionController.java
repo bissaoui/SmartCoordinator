@@ -22,8 +22,8 @@ public class PositionController {
     }
 
     @PostMapping
-    public void Ajouter(@RequestBody Position position){
-        positionRepository.save(position);
+    public Position Ajouter(@RequestBody Position position){
+        return    positionRepository.save(position);
     }
 
     @DeleteMapping("/{id}")
