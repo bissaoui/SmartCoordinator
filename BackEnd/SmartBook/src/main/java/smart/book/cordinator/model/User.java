@@ -1,15 +1,10 @@
 package smart.book.cordinator.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Data
 @NoArgsConstructor
@@ -27,7 +22,7 @@ public class User implements Serializable {
     private String password;
     private Date ddn;
     @ManyToMany(fetch = FetchType.LAZY)
-    private List<Role> roles;
+    private List<Role> roles = new ArrayList<>();
 
 
     public User(Long id, String nom, String username, String prenom, String email, String password, Date ddn) {
@@ -39,4 +34,8 @@ public class User implements Serializable {
         this.password = password;
         this.ddn = ddn;
     }
+
+
+
+
 }

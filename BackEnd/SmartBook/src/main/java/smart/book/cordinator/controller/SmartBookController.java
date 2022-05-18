@@ -43,5 +43,9 @@ public class SmartBookController {
 
 
     }
-
+    @GetMapping("s/{id}")
+    public List<SmartBook> scannedSb(@PathVariable("id") Long id){
+        System.out.println(id);
+        return smartBookRepository.scanedbyme(id);
+    }
 }

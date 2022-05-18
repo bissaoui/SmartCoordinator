@@ -10,8 +10,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import smart.book.cordinator.model.Role;
+import smart.book.cordinator.model.SmartBook;
 import smart.book.cordinator.model.User;
 import smart.book.cordinator.repository.RoleRepository;
+import smart.book.cordinator.repository.SmartBookRepository;
 import smart.book.cordinator.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +36,10 @@ public class UserServiceImpl implements UserService , UserDetailsService {
 
     @Autowired
     private RoleRepository roleRepository ;
+
+    @Autowired
+    private SmartBookRepository smartBookRepository;
+
     private final PasswordEncoder passwordEncoder;
 
     @Override
@@ -55,6 +61,8 @@ public class UserServiceImpl implements UserService , UserDetailsService {
     @Override
     public User saveUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        Role r = roleRepository.findByName("ROLE_USER");
+        user.getRoles().add(r);
         return userRepository.save(user);
     }
 
@@ -80,6 +88,8 @@ public class UserServiceImpl implements UserService , UserDetailsService {
     public List<User> getUsers() {
         return userRepository.findAll();
     }
+
+
 
 
 }

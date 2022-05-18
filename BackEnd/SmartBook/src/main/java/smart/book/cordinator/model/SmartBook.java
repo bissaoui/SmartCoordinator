@@ -1,11 +1,13 @@
 package smart.book.cordinator.model;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 
 @Data
 @NoArgsConstructor
@@ -25,7 +27,7 @@ public class SmartBook {
 
     private String tele;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idUser")
     private User user;
     @ManyToOne(cascade= CascadeType.ALL)
@@ -34,6 +36,7 @@ public class SmartBook {
     @ManyToOne(cascade= CascadeType.ALL)
     @JoinColumn(name = "idPosition" )
     private Position position;
+
 
 
 }

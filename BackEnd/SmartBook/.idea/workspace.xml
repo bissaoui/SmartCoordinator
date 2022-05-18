@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/SmartBookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/PositionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/filter/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/SmartBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/SmartBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/SmartBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/SmartBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/SmartBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/SmartBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/smartvue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -62,24 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mehdi/Desktop/PFA2022/SmartCoordinator/BackEnd/SmartBook",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "8c319f28d81d1527a9428e9a5c2195f5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mehdi/Desktop/PFA2022/SmartCoordinator/BackEnd/SmartBook&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8c319f28d81d1527a9428e9a5c2195f5&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="smart.book.cordinator" />
@@ -125,6 +126,9 @@
       <workItem from="1651414061160" duration="16136000" />
       <workItem from="1651953049203" duration="215000" />
       <workItem from="1652296910293" duration="10752000" />
+      <workItem from="1652818619054" duration="11730000" />
+      <workItem from="1652862223286" duration="1312000" />
+      <workItem from="1652902533373" duration="4279000" />
     </task>
     <servers />
   </component>

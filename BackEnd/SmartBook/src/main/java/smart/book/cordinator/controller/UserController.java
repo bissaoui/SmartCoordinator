@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import smart.book.cordinator.model.User;
 import smart.book.cordinator.repository.UserRepository;
+import smart.book.cordinator.service.UserServiceImpl;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -20,6 +21,7 @@ public class UserController {
     public List<User> getAll(){
         return userRepository.findAll();
     }
+
 
     @GetMapping("/{id}")
     public User Get(@PathVariable("id") Long id){
