@@ -8,7 +8,7 @@ import smart.book.cordinator.repository.UserRepository;
 import smart.book.cordinator.repository.userScannerdsbRepository;
 
 import java.util.List;
-
+// this is Scanner controller
 @RestController
 @RequestMapping("/userScannedsb")
 public class userScannedsbController {
