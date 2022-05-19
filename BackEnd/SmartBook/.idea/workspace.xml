@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91ab7b64-6a09-4d51-abac-87cbab117678" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/SmartBookApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/SmartBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/SmartBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/SmartBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/SmartBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/SmartBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/repository/SmartBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smart/book/cordinator/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,7 @@
       <workItem from="1652296910293" duration="10752000" />
       <workItem from="1652818619054" duration="11730000" />
       <workItem from="1652862223286" duration="1312000" />
-      <workItem from="1652902533373" duration="4279000" />
+      <workItem from="1652902533373" duration="5483000" />
     </task>
     <servers />
   </component>
