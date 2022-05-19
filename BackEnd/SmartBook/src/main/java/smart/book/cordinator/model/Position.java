@@ -22,7 +22,11 @@ public class Position {
     private Double latitude;
     private Double longitude;
     private String image;
-
-
-
+    
+    public Double converts(Double lat, Double long)
+    {
+        return lat+long;
+    }
 }
+
+
