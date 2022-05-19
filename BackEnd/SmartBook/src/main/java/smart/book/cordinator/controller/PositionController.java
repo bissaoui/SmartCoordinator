@@ -13,25 +13,18 @@ public class PositionController {
 
     @Autowired
     private PositionRepository positionRepository;
-
-
-
     @GetMapping("/{id}")
     public Position Get(@PathVariable("id") Long id){
         return positionRepository.findById(id).orElse(null);
     }
-
     @PostMapping
     public Position Ajouter(@RequestBody Position position){
         return    positionRepository.save(position);
     }
-
     @DeleteMapping("/{id}")
     public void Delete(@PathVariable("id") Long id){
         positionRepository.deleteById(id);
     }
-
-
     @PutMapping("/{id}")
     public void Update(@PathVariable("id") Long id , @RequestBody Position position){
         Position u = new Position();
@@ -42,7 +35,5 @@ public class PositionController {
             u.setVille(position.getVille());
             u.setImage(position.getImage());
         positionRepository.save(u);
-
     }
-
 }
