@@ -28,7 +28,7 @@ public class SmartBookApplication {
 	CommandLineRunner run(UserService userService)
 	{
 		return args -> {
-			userService.saveRole(new Role(null, "ROLE_USER"));
+			/* userService.saveRole(new Role(null, "ROLE_USER"));
 			userService.saveRole(new Role(null, "ROLE_MANAGER"));
 			userService.saveRole(new Role(null, "ROLE_ADMIN"));
 			userService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
@@ -39,7 +39,7 @@ public class SmartBookApplication {
 
 			userService.addRoleToUser("mehdiajana","ROLE_ADMIN");
 			userService.addRoleToUser("mehdiajana","ROLE_MANAGER");
-			userService.addRoleToUser("yassino","ROLE_USER");
+			userService.addRoleToUser("yassino","ROLE_USER");*/
 		};
 	}
 
