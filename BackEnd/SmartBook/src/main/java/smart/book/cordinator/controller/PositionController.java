@@ -17,14 +17,18 @@ public class PositionController {
     public Position Get(@PathVariable("id") Long id){
         return positionRepository.findById(id).orElse(null);
     }
+    //Ajouter
     @PostMapping
     public Position Ajouter(@RequestBody Position position){
         return    positionRepository.save(position);
     }
+    //Delete
     @DeleteMapping("/{id}")
     public void Delete(@PathVariable("id") Long id){
         positionRepository.deleteById(id);
     }
+    
+    //Modifier 
     @PutMapping("/{id}")
     public void Update(@PathVariable("id") Long id , @RequestBody Position position){
         Position u = new Position();
